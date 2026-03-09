@@ -1,0 +1,64 @@
+* {
+    text-align: center;
+    font-family: Georgia;
+}
+
+#sr {
+    display: flex;
+}
+
+header, footer {
+    background-color: Tomato;
+    color: MistyRose;
+    padding: 10px;
+}
+
+nav {
+    width: 20%;
+}
+
+#blok1, #blok2, #blok3 {
+    background-color: #FFAEA5;
+    height: 170px;
+    font-size: 200%;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#blok1 {
+    background-color: MistyRose;
+}
+
+main {
+    background-color: MistyRose;
+    width: 80%;
+    height: 510px;
+    overflow: auto;
+}
+
+#a, #b, #c {
+    display: none;
+}
+
+#a {
+    display: block;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+    border: 1px dashed Indigo;
+}
+
+select, button {
+    margin: 20px;
+}
+
+dt {
+    font-weight: bold;
+    font-style: italic;
+}
+
+dt:hover {
+    font-size: 180%;
+}
